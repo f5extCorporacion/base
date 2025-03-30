@@ -81,7 +81,7 @@ export const AuthProvider = ({ children }: { children: ReactNode }) => {
      Cookies.remove('xklsjadlsaoa');
      Cookies.remove('xklsjadlsaodw');
     setIsUser(null);
-    window.location.reload()
+    window.location.href='/';
   };
 
   const userLog = () => {
